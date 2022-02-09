@@ -4,19 +4,24 @@
         <title>ejercicio1</title>
     </head>
     <style>
-        body {background-color: pink}
+        #iv{background-color: pink;width: 50%;float: left;}
+        #sa{background-color: red;width: 50%;float: left;}
         
-        @media screen and (min-width: 480px) {
-            body {background-color: lightgreen; }
+        @media screen and (min-width: 680px) {
+            #iv{background-color: lightgreen; }
         }
-        @media screen and (min-width: 1000px) {
-            body {background-color: lightpink; }
+    
+        @media screen and (min-width: 680px) {
+            #sa{background-color: lightseagreen; }
         }
-        @media screen and (min-width: 1200px) {
-            body {background-color: lightyellow; }
-        }
+
     </style>
     <body>
-        <h1>ejercicio2</h1>
+        <div id="iv">
+            <h1>ejercicio1</h1>
+        </div>
+        <div id="sa">
+            <h1>ejercicio2</h1>
+        </div>
     </body>
 </html>
